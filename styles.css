@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Align columns to left and right */
+    padding: 20px;
+}
+
+.left-column,
+.right-column {
+    width: 48%; /* Adjust width as needed */
+}
+
+.contact-info {
+    margin-top: 20px; /* Adjust spacing */
+}
+
+.skills {
+    margin-top: 20px; /* Adjust spacing */
+}
+
+.section {
+    margin-top: 20px; /* Adjust spacing */
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Switch to single-column layout on smaller screens */
+    }
+    .left-column,
+    .right-column {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
